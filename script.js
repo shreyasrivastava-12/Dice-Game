@@ -14,10 +14,10 @@ button.addEventListener('click', function() {
     images[0].setAttribute("src", randomDiceImage1);
     images[1].setAttribute("src", randomDiceImage2);
     if(randomNumber1 > randomNumber2){
-        var text = "Player 1 Wins!!";
+        var text = "🚩 Player 1 Wins!!";
     }
     else if(randomNumber1 < randomNumber2){
-        var text = "Player 2 Wins!!";
+        var text = "Player 2 Wins!! 🚩";
     }
     else{
         var text = "Both Win!!";
